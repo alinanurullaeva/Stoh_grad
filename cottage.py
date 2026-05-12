@@ -25,6 +25,7 @@ stoh_grad = Regression(cot_data2, b2)
 result = stoh_grad.start_alg()
 for el in result:
     print(','.join(str(el).split('.')))
+
 '''for i in range(1, 101):
     res = 0
     for j in range(10):
